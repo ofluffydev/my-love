@@ -12,6 +12,8 @@ import pictureEleven from "./assets/images/Snapchat-1151093491.jpg";
 import pictureTwelve from "./assets/images/Snapchat-1180694213.jpg";
 import pictureThirteen from "./assets/images/Snapchat-1581273458.jpg";
 import pictureFourteen from "./assets/images/Snapchat-1597109498.jpg";
+
+import helloKitty from "./assets/images/img.png"
 import {useEffect, useState} from "react";
 
 const pictures = [
@@ -48,7 +50,8 @@ function App() {
             <div
                 className="overflow-x-hidden flex flex-col text-white justify-center items-center bg-gradient-to-br from-pink-300 to-purple-400 w-screen h-fit animated-background">
                 <h1 className="text-6xl font-bold m-3">Hi baby! :3</h1>
-                <h2>I love you!!</h2>
+                <h2>I love you my beautiful girl!!</h2>
+                <img src={helloKitty} className="h-[20rem]" alt="Hello Kitty"></img>
                 <CountUp startDate={date}/>
                 <Pictures pictures={pictures}/>
                 <h1 className="text-lg md:text-3xl lg:text-5xl font-bold mt-10 break-words">
